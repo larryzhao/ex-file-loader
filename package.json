@@ -1,6 +1,6 @@
 {
   "name": "ex-file-loader",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Larry Zhao @larryzhao"
   },
@@ -11,10 +11,8 @@
   "dependencies": {
     "loader-utils": "~0.2.5"
   },
-  "devDependencies": {
-  },
-  "scripts": {
-  },
+  "devDependencies": {},
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/larryzhao/ex-file-loader.git"
@@ -24,6 +22,5 @@
   },
   "homepage": "https://github.com/larryzhao/ex-file-loader",
   "main": "index.js",
-  "directories": {
-  }
+  "directories": {}
 }
