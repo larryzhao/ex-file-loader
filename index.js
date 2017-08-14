@@ -9,7 +9,7 @@ module.exports = function(content) {
   if(!this.emitFile) throw new Error("emitFile is required from module system");
 
   var query = loaderUtils.parseQuery(this.query);
-  var config = this.loaders[0].options || {};
+  var config = this.options['exFileLoader'] || this.loaders[0].options || {};
 
   var url = loaderUtils.interpolateName(this, query.name || "[hash].[ext]", {
     context: query.context || this.options.context,
